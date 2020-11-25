@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<launch>
+  <include file="$(find szemission_bringup)/launch/duro_gps.launch" />
+  <include file="$(find szemission_bringup)/launch/ouster.launch" />
+  <include file="$(find szemission_bringup)/launch/sick.launch" />
+
+  </launch>
