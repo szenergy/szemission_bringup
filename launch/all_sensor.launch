@@ -4,5 +4,6 @@
   <include file="$(find szemission_bringup)/launch/duro_gps.launch" />
   <include file="$(find szemission_bringup)/launch/ouster.launch" />
   <include file="$(find szemission_bringup)/launch/sick.launch" />
+  <include file="$(find szemission_bringup)/launch/tf_static.launch" />
 
   </launch>
