@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
 <!--
-  Szemission Bringup verison 2020.A:
+  Szemission Bringup verison 2020.S:
     - LIDAR: Ouster OS1-128
     - LIDAR: 1 x Sick_lms111
-    - GPS:   1 x Duro (map->base_link gps_tf_publisher.launch)
+    - GPS:   1 x Duro (map->gps gps_tf_publisher.launch)
     - TF:    tf_static.launch
+    - /current_pose
 
 
 -->
@@ -16,5 +17,6 @@
   <include file="$(find szemission_bringup)/launch/sick.launch" />
   <include file="$(find szemission_bringup)/launch/tf_static.launch" />
   <include file="$(find szemission_bringup)/launch/gps_tf_publisher.launch" />
+  <node pkg="szemission_bringup" type="current_pose_from_tf.py" name="current_pose_from_tf"/>
 
   </launch>
