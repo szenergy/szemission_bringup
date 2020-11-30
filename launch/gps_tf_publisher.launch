@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launch>
+
+
+<node type="gps_tf_publisher" name="gps_tf_publisher" pkg="gps_tf_publisher" />
+    
+
+
+</launch>

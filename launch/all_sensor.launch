@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
+<!--
+  Szemission Bringup verison 2020.A:
+    - LIDAR: Ouster OS1-128
+    - LIDAR: 1 x Sick_lms111
+    - GPS:   1 x Duro (map->base_link gps_tf_publisher.launch)
+    - TF:    tf_static.launch
+
+
+-->
+
 <launch>
   <include file="$(find szemission_bringup)/launch/duro_gps.launch" />
   <include file="$(find szemission_bringup)/launch/ouster.launch" />
   <include file="$(find szemission_bringup)/launch/sick.launch" />
   <include file="$(find szemission_bringup)/launch/tf_static.launch" />
+  <include file="$(find szemission_bringup)/launch/gps_tf_publisher.launch" />
 
   </launch>

@@ -4,4 +4,5 @@
 <node pkg="tf" type="static_transform_publisher" name="ouster_base_link_publisher" args="0.604 0.0 0.81 0.0 0.0 0.0 base_link os_sensor 10"/>
 <node pkg="tf" type="static_transform_publisher" name="duro_gps_base_link_publisher" args="1.88 0.0 0.253 0.0 0.0 0.0 base_link duro_antenna 10"/>
 
+
 </launch>
