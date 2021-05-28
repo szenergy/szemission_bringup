@@ -1,0 +1,3 @@
+<launch>
+    <param name="robot_description" textfile="$(find szemission_bringup)/launch/robot_descripition_3d.xml" />
+</launch>
