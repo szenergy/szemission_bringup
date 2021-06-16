@@ -5,7 +5,7 @@
     <visual>
       <origin rpy="0.0 0.0 0.0" xyz="-0.0 0.0 0.0"/>
       <geometry>
-      <mesh filename="package://szemission_bringup/meshes/SZEmissionRviz4.obj" scale="1.0 1.0 1.0"/>
+      <mesh filename="package://szemission_bringup/meshes/SZEmissionRviz5.obj" scale="1.0 1.0 1.0"/>
       </geometry>
     </visual>
   </link>
